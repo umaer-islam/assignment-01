@@ -156,4 +156,35 @@ header {
     margin-bottom: 7px;
 
 }
-/* Will continue from 11 */
+.price-text{
+  color: #888888;
+}
+.pricing-card hr{
+  margin: 20px;
+  border: none;
+  border-top: 1px solid #E5E7EB;
+}
+
+.pricing-card li{
+  margin-bottom: 15px;
+}
+.pricing-card button{
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 25px;
+  background: #1d4ed8;
+  color: white;
+  cursor: pointer;
+}
+.highlight{
+  background: #0D1B2A;
+  color: white;
+}
+.highlight{
+  border-top: 1px solid white;
+}
+.highlight .price-text{
+  color: white;
+}
