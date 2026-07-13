@@ -120,6 +120,7 @@ header {
 .speaker-info p {
   color: #575757;
 }
+
 /* Pricing Section */
 .pricing {
   padding: 80px;
@@ -142,7 +143,7 @@ header {
 
 .pricing-card {
   width: 350px;
-  padding: 30px;
+  padding: 32px;
   border-radius: 12px;
   border: 1px solid #E5E7EB;
 }
@@ -167,6 +168,10 @@ header {
 
 .pricing-card li{
   margin-bottom: 15px;
+  margin-left: 20px;
+}
+ul li::marker{
+color:#60A5FA;
 }
 .pricing-card button{
   width: 100%;
